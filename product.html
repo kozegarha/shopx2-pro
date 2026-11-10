@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مشاهده مشخصات و جزئیات محصولات دیجی‌شاپ">
+    <title>جزئیات محصول | Shopx</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="premium-header">
+
+    <!-- ردیف اول -->
+    <div class="top-header">
+
+        <a href="index.html" class="premium-logo">
+         Shop<span>x</span>
+        </a>
+
+        <div class="header-search">
+            <input type="text" placeholder="جست‌وجوی محصولات...">
+            <button type="button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <div class="header-actions">
+
+            <a href="login.html" class="header-login">
+                <i class="fa-regular fa-user"></i>
+                ورود / ثبت‌نام
+            </a>
+
+            <a href="cart.html" class="premium-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>سبد خرید</span>
+                <b class="cart-count">۰</b>
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- ردیف دوم -->
+    <nav class="bottom-header">
+
+        <a href="index.html">خانه</a>
+
+        <details class="nav-dropdown">
+            <summary>
+                دسته‌بندی محصولات
+                <i class="fa-solid fa-chevron-down"></i>
+            </summary>
+
+            <div class="dropdown-menu">
+                <a href="products.html?category=mobile">موبایل</a>
+                <a href="products.html?category=laptop">لپ‌تاپ</a>
+                <a href="products.html?category=watch">ساعت هوشمند</a>
+                <a href="products.html?category=accessory">لوازم جانبی</a>
+                <a href="products.html">مشاهده همه محصولات</a>
+            </div>
+        </details>
+
+        <details class="nav-dropdown">
+            <summary>
+                برندها
+                <i class="fa-solid fa-chevron-down"></i>
+            </summary>
+
+            <div class="dropdown-menu">
+                <a href="products.html">سامسونگ</a>
+                <a href="products.html">اپل</a>
+                <a href="products.html">ایسوس</a>
+                <a href="products.html">شیائومی</a>
+            </div>
+        </details>
+
+        <details class="nav-dropdown">
+            <summary>
+                خدمات
+                <i class="fa-solid fa-chevron-down"></i>
+            </summary>
+
+            <div class="dropdown-menu">
+                <a href="about.html">ضمانت محصولات</a>
+                <a href="about.html">پشتیبانی خرید</a>
+                <a href="about.html">راهنمای خرید</a>
+            </div>
+        </details>
+
+        <a href="about.html">درباره ما</a>
+        <a href="about.html#contact">تماس با ما</a>
+
+    </nav>
+
+</header>
+
+    <main class="product-detail-page">
+
+        <!-- Breadcrumb -->
+        <div class="container product-breadcrumb">
+            <a href="index.html">خانه</a>
+            <i class="fa-solid fa-angle-left"></i>
+            <a href="products.html">محصولات</a>
+            <i class="fa-solid fa-angle-left"></i>
+            <span>جزئیات محصول</span>
+        </div>
+
+
+        <!-- Product Details -->
+        <section class="product-detail-section">
+            <div class="container">
+
+                <div id="product-detail">
+
+                    <!-- اطلاعات محصول با جاوااسکریپت نمایش داده می‌شود -->
+
+                </div>
+
+                <div id="product-not-found" hidden>
+                    <i class="fa-solid fa-box-open"></i>
+                    <h2>محصول مورد نظر پیدا نشد!</h2>
+                    <p>ممکن است محصول حذف شده باشد یا آدرس آن اشتباه باشد.</p>
+                    <a href="products.html" class="primary-btn">
+                        بازگشت به محصولات
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="premium-footer">
+
+    <div class="footer-main">
+
+        <!-- معرفی فروشگاه -->
+        <div class="footer-about">
+            <a href="index.html" class="footer-logo">
+                Digi<span>Shop</span>
+            </a>
+
+            <p>
+                تجربه‌ای متفاوت از خرید محصولات دیجیتال؛
+                انتخابی هوشمندانه برای زندگی مدرن.
+            </p>
+
+            <div class="footer-socials">
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+                <a href="#" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- دسترسی سریع -->
+        <div class="footer-column">
+            <h3>دسترسی سریع</h3>
+            <a href="index.html">صفحه اصلی</a>
+            <a href="products.html">فروشگاه محصولات</a>
+            <a href="about.html">درباره ما</a>
+            <a href="contact.html">تماس با ما</a>
+        </div>
+
+        <!-- خدمات مشتریان -->
+        <div class="footer-column">
+            <h3>خدمات مشتریان</h3>
+            <a href="products.html">راهنمای خرید</a>
+            <a href="cart.html">سبد خرید</a>
+            <a href="checkout.html">ثبت سفارش</a>
+            <a href="contact.html">پشتیبانی</a>
+        </div>
+
+        <!-- اطلاعات -->
+        <div class="footer-column">
+            <h3>چرا DigiShop؟</h3>
+            <p>انتخاب آسان محصولات دیجیتال</p>
+            <p>تجربه خرید ساده و سریع</p>
+            <p>توجه به کیفیت و رضایت مشتری</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© تمامی حقوق این وب‌سایت متعلق به Shopx است.</p>
+
+        <span>
+            Designed with
+            <i class="fa-solid fa-heart"></i>
+            by Shopx
+        </span>
+    </div>
+
+</footer>
+
+    <!-- JavaScript -->
+    <script src="js/products.js"></script>
+    <script src="js/product-detail.js"></script>
+<script src="js/cart-count.js"></script>
+</body>
+</html>
